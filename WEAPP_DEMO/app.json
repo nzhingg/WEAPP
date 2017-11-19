@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "pink",
+    "navigationBarTitleText": "球球",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#2EBF76",
+    "borderStyle": "white",
+    "backgroundColor": "#f6f8f9",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/img1.png",
+      "selectedIconPath": "images/img2.png"
+    }, {
+      "pagePath": "pages/list/list",
+      "text": "列表",
+      "iconPath": "images/img1.png",
+      "selectedIconPath": "images/img2.png"
+    }]
+  }
+}
