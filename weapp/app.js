@@ -2,8 +2,6 @@
 App({
   onLaunch: function () {
     // 展示本地存储能力
-    // 事件 在启动后触发 生命周期
-    // 每一时刻， 到时触发
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)

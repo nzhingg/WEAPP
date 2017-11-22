@@ -1,0 +1,22 @@
+/**index.wxss**/
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #ccc;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.swiper-tab-item {
+  flex: 1;
+  text-align: center;
+}
+.active {
+  color: #f65959;
+  border-bottom: 4px solid #f65959;
+}
+swiper {
+  text-align: center;
+}
